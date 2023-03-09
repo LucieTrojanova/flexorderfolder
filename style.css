@@ -4,10 +4,15 @@
 :before {
   box-sizing: border-box;
 }
+
 .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
 }
+
 .activity {
   margin: 10px;
   background-size: contain;
@@ -29,6 +34,7 @@
 
 .family {
   background-image: url("img/family.jpg");
+
 }
 
 .netflix {
@@ -37,6 +43,7 @@
 
 .sleep {
   background-image: url("img/sleep.jpg");
+  order: -5;
 }
 
 /* --------------- */
